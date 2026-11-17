@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의 첫 웹사이트</title>
+    <style>
+        body {
+            font-family: 'Malgun Gothic', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 40px 50px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+        }
+        h1 { margin-bottom: 10px; font-size: 28px; }
+        p { font-size: 16px; line-height: 1.6; opacity: 0.9; }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: white;
+            color: #764ba2;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn:hover { transform: scale(1.05); }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>👋 반갑습니다!</h1>
+        <p>이곳은 제가 직접 만든<br>세상에서 하나뿐인 첫 웹사이트입니다.</p>
+        <p>앞으로 재미있는 것들로 채워볼 예정이에요!</p>
+        <a href="https://github.com" target="_blank" class="btn">내 깃허브 구경하기</a>
+    </div>
+</body>
+</html>
